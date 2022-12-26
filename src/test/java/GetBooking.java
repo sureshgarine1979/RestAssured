@@ -17,5 +17,6 @@ public class GetBooking {
                 .log()
                 .all()
                 .statusCode(200);
+        System.out.println("get booking service call completed");
     }
 }
